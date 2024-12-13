@@ -46,7 +46,8 @@ FORMA 2: SERVIDOR WEB DE XAMMP
 
 ## **RESTAURAR BASE DE DATOS**
 1. Crear base de datos de nombre `menu_catalog`
-2. restaurar la base de datos con el comando `mysql -uroot -p menu_catalog < menu_catalog.sql`
+2. El respaldo de base de datos esta en el directorio raiz: `\menu_catalog\menu_catalog.sql`
+3. restaurar la base de datos con el comando `mysql -uroot -p menu_catalog < menu_catalog.sql`
 
 ## **CONFIGURAR CONEXION A BASE DE DATOS DEL SISTEMA**
 1. Agregar host, usuario y password en el archivo `\menu_catalog\src\Services\DatabaseService.php`
